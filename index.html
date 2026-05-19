@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE X FACTOR APEX (TXFA)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #050505; /* Preto Profundo */
+            color: #f1f5f9;
+        }
+        /* ADICIONA A IMAGEM DE FUNDO BEM SUAVE ATRÁS DE TUDO */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('BrasãoTXFA.png'); 
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 55%; 
+            opacity: 0.04; 
+            z-index: -1; 
+            pointer-events: none;
+        }
+        h1, h2, h3, .font-gaming {
+            font-family: 'Rajdhani', sans-serif;
+        }
+        .glow-crimson {
+            text-shadow: 0 0 15px #dc143c, 0 0 30px rgba(220, 20, 96, 0.4);
+        }
+        /* Borda estilizada combinando com o bronze do brasão */
+        .border-bronze {
+            border-color: #8c6d4f;
+        }
+        .text-crimson {
+            color: #dc143c; /* Vermelho Carmesim */
+        }
+        .bg-crimson {
+            background-color: #dc143c;
+        }
+        .bg-card-dark {
+            background-color: #0d0d0d;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-red-700 selection:text-white">
+
+    <header class="fixed w-full z-50 bg-black/95 backdrop-blur-md border-b border-zinc-900">
+        <div class="container mx-auto px-4 h-20 flex items-center justify-between">
+            <span class="font-gaming font-bold text-2xl tracking-wider text-white">
+                THE X FACTOR APEX <span class="text-crimson">(TXFA)</span>
+            </span>
+            <nav class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest">
+                <a href="#inicio" class="text-slate-300 hover:text-crimson transition">Início</a>
+                <a href="#diretrizes" class="text-slate-300 hover:text-crimson transition">Diretrizes</a>
+                <a href="#membros" class="text-slate-300 hover:text-crimson transition">Membros</a>
+                <a href="#contato" class="text-slate-300 hover:text-crimson transition">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="pt-32 pb-20 flex flex-col items-center justify-center text-center px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-8 flex justify-center">
+                <img src="BrasãoTXFA.png" alt="Brasão TXFA" class="w-64 h-64 md:w-80 md:h-80 object-contain drop-shadow-[0_0_25px_rgba(220,20,60,0.3)] border-2 border-bronze/30 rounded-full p-2 bg-black/50">
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-bold font-gaming tracking-tight text-white mb-4">
+                THE X FACTOR APEX <span class="text-crimson glow-crimson">(TXFA)</span>
+            </h1>
+            
+            <div class="mt-8 bg-card-dark/60 border border-zinc-900 p-6 rounded-xl max-w-2xl mx-auto">
+                <p class="text-slate-300 text-lg leading-relaxed">
+                    Aqui não é só um clã, é o lugar onde a gente divide o loot, a munição e a frustração de morrer pro gás. Se você busca o "Fator X" nas gameplays (ou pelo menos alguém pra te carregar), você está no lugar certo! 🎮🔥
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="diretrizes" class="py-20 bg-black/40 border-y border-zinc-900">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold font-gaming mb-10 text-white flex items-center gap-3 uppercase tracking-wider justify-center">
+                <i data-lucide="scroll" class="text-crimson"></i> Diretrizes da nossa "Saúde Mental"
+            </h2>
+            
+            <div class="space-y-4">
+                <div class="bg-card-dark p-5 rounded-lg border-l-4 border-crimson">
+                    <span class="text-xs font-bold text-crimson uppercase tracking-widest block mb-1">1️⃣ Prioridade Máxima</span>
+                    <p class="text-slate-300">O esquadrão vem primeiro! Se tem alguém do clã on-line e precisando de um third, você tem o dever moral (e a obrigação de honra) de priorizar o time TXFA antes de qualquer aleatório.</p>
+                </div>
+
+                <div class="bg-card-dark p-5 rounded-lg border-l-4 border-bronze">
+                    <span class="text-xs font-bold text-amber-500 uppercase tracking-widest block mb-1">2️⃣ Família em Primeiro Lugar</span>
+                    <p class="text-slate-300">No Apex ou em qualquer outro jogo, jogamos juntos. Respeito total com os irmãos de arma. Xingamento só se for contra o inimigo que tá de Strike Pack! 😤 (se bem que ninguém aqui é menino e sabe diferenciar o que é brincadeira do que não é, então essa de xingamento é por conta de cada), mas respeito acima de tudo geral.</p>
+                </div>
+
+                <div class="bg-card-dark p-5 rounded-lg border-l-4 border-crimson">
+                    <span class="text-xs font-bold text-crimson uppercase tracking-widest block mb-1">3️⃣ Comunicação é Tudo</span>
+                    <p class="text-slate-300">Entrou no jogo? Avisa no grupo. Tá sobrando uma bateria de escudo? Ceda para o amigo. O "Fator X" é a nossa união.</p>
+                </div>
+
+                <div class="bg-card-dark p-5 rounded-lg border-l-4 border-zinc-700">
+                    <span class="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-1">4️⃣ Sem Fantasmas</span>
+                    <p class="text-slate-300">O clã é vivo! Interaja, combine partidas e não seja apenas um espectador de memes.</p>
+                </div>
+
+                <div class="bg-card-dark p-5 rounded-lg border-l-4 border-crimson shadow-[0_0_15px_rgba(220,20,60,0.1)]">
+                    <span class="text-xs font-bold text-crimson uppercase tracking-widest block mb-1">5️⃣ Identidade Visual Obrigatória</span>
+                    <p class="text-slate-300">Sua foto do perfil deverá ser substituída pelo brasão do time (o mesmo da foto do perfil do WhatsApp), assim também como as iniciais <strong class="text-white">TXFA</strong> deverão ser colocadas na opção tag do game.</p>
+                </div>
+            </div>
+            
+            <p class="text-center mt-10 font-gaming text-xl text-slate-400 tracking-wider">
+                🦾 Lenda escolhida, squad fechado. Vamos mostrar por que temos o Fator X! 🎖️
+            </p>
+        </div>
+    </section>
+
+    <section id="membros" class="py-20 bg-zinc-950">
+        <div class="container mx-auto px-4 max-w-6xl">
+            
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold font-gaming text-center mb-8 uppercase tracking-widest text-white flex items-center justify-center gap-2">
+                    👑 Liderança do Clã
+                </h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-card-dark p-6 rounded-xl border border-crimson/50 text-center relative overflow-hidden">
+                        <div class="absolute top-0 inset-x-0 h-1 bg-crimson"></div>
+                        <h3 class="text-2xl font-bold font-gaming text-white uppercase italic">Rael X</h3>
+                        <p class="text-xs text-crimson font-bold uppercase tracking-widest mt-1 mb-4">Líder</p>
+                        <div class="text-xs text-slate-400 bg-black/40 py-2 rounded border border-zinc-900">
+                            Lenda principal: <span class="text-white font-medium">Bangalore</span>
+                        </div>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-crimson/50 text-center relative overflow-hidden">
+                        <div class="absolute top-0 inset-x-0 h-1 bg-crimson"></div>
+                        <h3 class="text-2xl font-bold font-gaming text-white uppercase italic">Rafalone X</h3>
+                        <p class="text-xs text-crimson font-bold uppercase tracking-widest mt-1 mb-4">Líder</p>
+                        <div class="text-xs text-slate-400 bg-black/40 py-2 rounded border border-zinc-900">
+                            Lenda principal: <span class="text-white font-medium">Bloodhound</span>
+                        </div>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-crimson/50 text-center relative overflow-hidden">
+                        <div class="absolute top-0 inset-x-0 h-1 bg-crimson"></div>
+                        <h3 class="text-2xl font-bold font-gaming text-white uppercase italic">tXf BR4VO X</h3>
+                        <p class="text-xs text-crimson font-bold uppercase tracking-widest mt-1 mb-4">Líder</p>
+                        <div class="text-xs text-slate-400 bg-black/40 py-2 rounded border border-zinc-900">
+                            Lenda principal: <span class="text-white font-medium">Lifeline</span>
+                        </div>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-crimson/50 text-center relative overflow-hidden">
+                        <div class="absolute top-0 inset-x-0 h-1 bg-crimson"></div>
+                        <h3 class="text-2xl font-bold font-gaming text-white uppercase italic">tXf M1c X</h3>
+                        <p class="text-xs text-crimson font-bold uppercase tracking-widest mt-1 mb-4">Líder</p>
+                        <div class="text-xs text-slate-400 bg-black/40 py-2 rounded border border-zinc-900">
+                            Lenda principal: <span class="text-white font-medium">Mirage
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-3xl font-bold font-gaming text-center mb-8 uppercase tracking-widest text-white flex items-center justify-center gap-2">
+                    ⚔️ Membros Oficiais
+                </h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div class="bg-card-dark/60 p-4 rounded-lg border border-zinc-900 hover:border-bronze/40 transition">
+                        <h4 class="text-lg font-bold font-gaming text-slate-200">Borgees</h4>
+                        <p class="text-[11px] text-zinc-500 uppercase tracking-widest mb-2">Operador TXFA</p>
+                        <p class="text-xs text-slate-400 border-t border-zinc-900 pt-2">Lenda: <span class="text-slate-200">Horizon</span></p>
+                    </div>
+                    <div class="bg-card-dark/60 p-4 rounded-lg border border-zinc-900 hover:border-bronze/40 transition">
+                        <h4 class="text-lg font-bold font-gaming text-slate-200">PKzinN</h4>
+                        <p class="text-[11px] text-zinc-500 uppercase tracking-widest mb-2">Operador TXFA</p>
+                        <p class="text-xs text-slate-400 border-t border-zinc-900 pt-2">Lenda: <span class="text-slate-200">Gibraltar</span></p>
+                    </div>
+                    <div class="bg-card-dark/60 p-4 rounded-lg border border-zinc-900 hover:border-bronze/40 transition">
+                        <h4 class="text-lg font-bold font-gaming text-slate-200">BryanRibeiro</h4>
+                        <p class="text-[11px] text-zinc-500 uppercase tracking-widest mb-2">Operador TXFA</p>
+                        <p class="text-xs text-slate-400 border-t border-zinc-900 pt-2">Lenda: <span class="text-slate-200">Conduit</span></p>
+                    </div>
+                    <div class="bg-card-dark/60 p-4 rounded-lg border border-zinc-900 hover:border-bronze/40 transition">
+                        <h4 class="text-lg font-bold font-gaming text-slate-200">Dwallaz</h4>
+                        <p class="text-[11px] text-zinc-500 uppercase tracking-widest mb-2">Operador TXFA</p>
+                        <p class="text-xs text-slate-400 border-t border-zinc-900 pt-2">Lenda: <span class="text-slate-200">Octane</span></p>
+                    </div>
+                    <div class="bg-card-dark/60 p-4 rounded-lg border border-zinc-900 hover:border-bronze/40 transition">
+                        <h4 class="text-lg font-bold font-gaming text-slate-200">Edurugbi</h4>
+                        <p class="text-[11px] text-zinc-500 uppercase tracking-widest mb-2">Operador TXFA</p>
+                        <p class="text-xs text-slate-400 border-t border-zinc-900 pt-2">Lenda: <span class="text-slate-200">Caustic</span></p>
+                    </div>
+                    <div class="bg-card-dark/60 p-4 rounded-lg border border-zinc-900 hover:border-bronze/40 transition">
+                        <h4 class="text-lg font-bold font-gaming text-slate-200">TTV TIOZAO</h4>
+                        <p class="text-[11px] text-zinc-500 uppercase tracking-widest mb-2">Operador TXFA</p>
+                        <p class="text-xs text-slate-400 border-t border-zinc-900 pt-2">Lenda: <span class="text-slate-200">Lifeline</span></p>
+                    </div>
+                    <div class="bg-card-dark/60 p-4 rounded-lg border border-zinc-900 hover:border-bronze/40 transition">
+                        <h4 class="text-lg font-bold font-gaming text-slate-200">VagabondRhyme76</h4>
+                        <p class="text-[11px] text-zinc-500 uppercase tracking-widest mb-2">Operador TXFA</p>
+                        <p class="text-xs text-slate-400 border-t border-zinc-900 pt-2">Lenda: <span class="text-slate-200">Vantage</span></p>
+                    </div>
+                    <div class="bg-card-dark/60 p-4 rounded-lg border border-zinc-900 hover:border-bronze/40 transition">
+                        <h4 class="text-lg font-bold font-gaming text-slate-200">RogueGuy3150</h4>
+                        <p class="text-[11px] text-zinc-500 uppercase tracking-widest mb-2">Operador TXFA</p>
+                        <p class="text-xs text-slate-400 border-t border-zinc-900 pt-2">Lenda: <span class="text-slate-200">Fuse</span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="py-20 bg-black/60 border-t border-zinc-900">
+        <div class="container mx-auto px-4 max-w-4xl text-center">
+            <h2 class="text-3xl md:text-4xl font-bold font-gaming mb-10 text-white uppercase tracking-wider">
+                ⚡ Recrutamento e Contato
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+                <a href="https://wa.me/5562992552468" target="_blank" class="bg-card-dark p-6 rounded-xl border border-zinc-800 hover:border-emerald-500/50 transition-all flex flex-col items-center justify-center gap-3 group">
+                    <div class="w-12 h-12 bg-emerald-950/40 rounded-full flex items-center justify-center text-emerald-500 border border-emerald-500/20 group-hover:bg-emerald-500 group-hover:text-white transition-all">
+                        <i data-lucide="message-square"></i>
+                    </div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-slate-400">WhatsApp Oficial</span>
+                    <span class="text-xl font-bold text-white font-gaming">(62) 99255-2468</span>
+                </a>
+
+                <a href="mailto:thexfactorapextxfa@gmail.com" class="bg-card-dark p-6 rounded-xl border border-zinc-800 hover:border-crimson/50 transition-all flex flex-col items-center justify-center gap-3 group">
+                    <div class="w-12 h-12 bg-red-950/40 rounded-full flex items-center justify-center text-crimson border border-red-500/20 group-hover:bg-crimson group-hover:text-white transition-all">
+                        <i data-lucide="mail"></i>
+                    </div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-slate-400">E-mail do Clã</span>
+                    <span class="text-md font-bold text-white tracking-tight break-all">thexfactorapextxfa@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-zinc-900 py-10 text-center text-xs uppercase tracking-widest font-bold text-zinc-700">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2026 THE X FACTOR APEX (TXFA). TODOS OS DIREITOS RESERVADOS DO CLÃ.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Inicializa ícones Lucide automaticamente
+        lucide.createIcons();
+    </script>
+</body>
+</html>
